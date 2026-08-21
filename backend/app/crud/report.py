@@ -130,7 +130,10 @@ def get_recent_transactions(db: Session, current_user):
     transactions = (
         db.query(Transaction)
         .filter(Transaction.user_id == current_user.id)
-        .order_by(Transaction.transaction_date.desc(), Transaction.id.desc())
+        .order_by(
+            Transaction.transaction_date.desc(),
+            Transaction.id.desc()
+        )
         .limit(10)
         .all()
     )
