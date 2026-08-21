@@ -2,5 +2,20 @@ services:
   - type: web
     name: cashflow-backend
     runtime: python
+
     buildCommand: pip install -r requirements.txt
-    startCommand: uvicorn app.main:app --host 0.0.0.0 --port 10000
+
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+
+      - key: SECRET_KEY
+        sync: false
+
+      - key: ACCESS_TOKEN_EXPIRE_MINUTES
+        value: "60"
+
+      - key: CORS_ORIGINS
+        value: "http://localhost:5173"
