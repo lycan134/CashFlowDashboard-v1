@@ -6,9 +6,9 @@ The application helps users manage their finances by tracking accounts, transact
 
 ---
 
-## 🌐 Live Demo
+## Live Demo
 
-🚀 **Try the app here:** https://xhyza-finance.onrender.com/
+**Try the app here:** https://xhyza-finance.onrender.com/
 ---
 
 # Features
