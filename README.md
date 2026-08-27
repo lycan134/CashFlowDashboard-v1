@@ -6,14 +6,9 @@ The application helps users manage their finances by tracking accounts, transact
 
 ---
 
-## 📸 Preview
+## 🌐 Live Demo
 
-> Add screenshots here after deployment.
-
-| Dashboard | Accounts |
-|-----------|----------|
-| ![](docs/dashboard.png) | ![](docs/accounts.png) |
-
+🚀 **Try the app here:** https://xhyza-finance.onrender.com/
 ---
 
 # Features
