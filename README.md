@@ -153,9 +153,8 @@ cashflow-dashboard/
 ## Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/cashflow-dashboard.git
-
-cd cashflow-dashboard
+git clone https://github.com/lycan134/CashFlowDashboard-v1.git
+cd CashFlowDashboard-v1
 ```
 
 ---
